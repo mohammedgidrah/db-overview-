@@ -121,7 +121,7 @@
 //     email VARCHAR(100) NOT NULL UNIQUE,
 //     salary float CHECK (salary > 0),
 //     hire_date DATE DEFAULT CURRENT_DATE,
-//     department_id INT,
+//     department_id INT UNIQUE,
 //     FOREIGN KEY (department_id) REFERENCES departments(id)
 // );
 
