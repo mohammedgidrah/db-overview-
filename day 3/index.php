@@ -166,3 +166,4 @@
 // FULL OUTER JOIN departments d ON e.department_id = d.department_id
 // FULL OUTER JOIN projects p ON e.employee_id = p.employee_id
 // ORDER BY d.department_name, e.last_name, e.first_name;
+
